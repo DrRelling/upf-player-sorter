@@ -1,0 +1,42 @@
+#tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url('https://dhhim4ltzu1pj.cloudfront.net/media/images/savage.original.jpg');
+  background-size: cover;
+  height: 100%;
+}
+
+i {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  background-image: url('https://dhhim4ltzu1pj.cloudfront.net/static/6b3bdf9d/fabsite/dist/img/paper_dark_darkere2b502b.jpg');
+  border-color: rgb(236, 190, 110) !important;
+  color: rgb(236, 190, 110) !important;
+}
+
+button {
+  color: rgb(236, 190, 110) !important;
+  border-color: rgb(236, 190, 110) !important;
+  background-color: rgb(49, 31, 19) !important;
+}
+
+input::placeholder {
+  color: rgb(236, 190, 110) !important;
+  opacity: 0.4 !important;
+}
+
+* {
+  font-family: capitolium-2, serif;
+  color: rgb(236, 190, 110);
+}
