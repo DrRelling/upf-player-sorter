@@ -5,11 +5,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
   popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl);
   });
-
-  document.getElementById('table-layout').value = 3;
-  document.getElementById('players').value =
-    'Adam\nTiago\nEmily\nChris\nStephen';
-  update();
 });
 
 function update() {
